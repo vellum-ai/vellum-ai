@@ -125,8 +125,6 @@ The goal is to meet the model in the middle—to find a format that is both stru
 
 ## About the Author
 
-![David Vargas profile photo](images/david-vargas.avif)
-
 **David Vargas**  
 *Full Stack Founding Engineer*  
 [LinkedIn](https://www.linkedin.com/in/dvargas92495)
@@ -134,8 +132,6 @@ The goal is to meet the model in the middle—to find a format that is both stru
 A Full-Stack Founding Engineer at Vellum, David Vargas is an MIT graduate (2017) with experience at a Series C startup and as an independent open-source engineer. He built tools for thought through his company, SamePage, and now focuses on shaping the next era of AI-driven tools for thought at Vellum.
 
 ## About the Reviewer
-
-![Anita Kirkovska profile photo](images/anita-kirkovska.avif)
 
 **Anita Kirkovska**  
 *Founding Growth Lead*  
