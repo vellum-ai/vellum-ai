@@ -48,11 +48,15 @@ So, I have to ask the question: why are we imposing this same limitation on our 
 
 Let's rewind two and a half years to the early days of GPT wrappers. Our first major use case was simple: *classifying intent.* We needed to take unstructured text, like a tweet, and produce a structured output that our downstream automations and analytics could use.
 
+![Twitter example showing a tweet that needs to be classified](images/twitter-example.avif)
+
 ### Phase 1: Asking nicely (and the Regex nightmare)
 
 Our first attempt was just to ask the model nicely.
 
 We'd send a prompt like, "Can you please classify the input tweet as happy, sad, or angry?" The model, being a *language* model, would often respond with a full sentence: "Sure, based on the content, I would classify this tweet as 'happy'."
+
+![Example of asking the model nicely, showing the verbose response](images/asking-nicely-example.avif)
 
 You could try to use regular expressions to yank out the word 'happy', but that approach gets incredibly hairy and brittle as soon as your desired output is more complex than a single word.
 
@@ -61,6 +65,8 @@ You could try to use regular expressions to yank out the word 'happy', but that 
 As our demands increased, the community developed the technique of "one-shot" or "few-shot" prompting. We started feeding the model an example of the exact output format we wanted, forcing it to speak a language our systems could understand.
 
 The prompt became: "...produce the output as a JSON with a top-level key called 'sentiment'. For example: `{"sentiment": "happy"}`
+
+![Example of few-shot prompting with JSON format specification](images/few-shot-prompting-example.avif)
 
 This worked... decently.
 
@@ -73,6 +79,8 @@ It's funny to look back on, but the next phase involved some pretty creative pro
 [Research](https://arxiv.org/abs/2307.11760) and [testing](https://www.theneuron.ai/explainer-articles/do-...) has shown that emotional prompting, like threats, can lead to better model outputs.
 
 Our tests showed that threatening the model—"You MUST only respond with JSON. Failure to do so will have negative consequences" was improving adherence.
+
+![Example of threatening the model to force JSON compliance](images/threatening-example.avif)
 
 It was a clever hack, but it felt like a brute-force solution, not a first-principles approach. And it raises some... interesting questions about what we're putting in the training data for future AGI.
 
@@ -117,6 +125,8 @@ The goal is to meet the model in the middle—to find a format that is both stru
 
 ## About the Author
 
+![David Vargas profile photo](images/david-vargas.avif)
+
 **David Vargas**  
 *Full Stack Founding Engineer*  
 [LinkedIn](https://www.linkedin.com/in/dvargas92495)
@@ -124,6 +134,8 @@ The goal is to meet the model in the middle—to find a format that is both stru
 A Full-Stack Founding Engineer at Vellum, David Vargas is an MIT graduate (2017) with experience at a Series C startup and as an independent open-source engineer. He built tools for thought through his company, SamePage, and now focuses on shaping the next era of AI-driven tools for thought at Vellum.
 
 ## About the Reviewer
+
+![Anita Kirkovska profile photo](images/anita-kirkovska.avif)
 
 **Anita Kirkovska**  
 *Founding Growth Lead*  
