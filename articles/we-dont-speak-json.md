@@ -3,8 +3,6 @@
 Why forcing LLMs to output structured data is a flawed paradigm, and what might come next for developers.
 
 **Written by:** [David Vargas](https://www.linkedin.com/in/dvargas92495)  
-**Reviewed by:** [Anita Kirkovska](https://www.linkedin.com/in/anitakirkovska)
-
 ---
 
 Let me start with a quick story. We recently hired a new intern. Young, brilliant, fresh out of an Ivy League school, and a real go-getter. We saw a ton of potential and were excited to get them started. To ramp them up, I invited them to a customer call.
