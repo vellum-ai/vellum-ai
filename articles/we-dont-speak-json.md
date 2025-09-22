@@ -16,14 +16,6 @@ Why forcing LLMs to output structured data is a flawed paradigm, and what might 
 **Written by:** [David Vargas](https://www.linkedin.com/in/dvargas92495)  
 **Reviewed by:** [Anita Kirkovska](https://www.linkedin.com/in/anitakirkovska)
 
-## Contents
-
-- [We don't speak in JSON](#we-dont-speak-in-json)
-- [How we arrived here](#how-we-arrived-here)
-- [The "holy crap" moment](#the-holy-crap-moment)
-- [But JSON isn't the answer](#but-json-isnt-the-answer)
-- [So, what's next?](#so-whats-next)
-
 ---
 
 Let me start with a quick story. We recently hired a new intern. Young, brilliant, fresh out of an Ivy League school, and a real go-getter. We saw a ton of potential and were excited to get them started. To ramp them up, I invited them to a customer call.
