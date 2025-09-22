@@ -128,14 +128,3 @@ An AI expert with a strong ML background, specializing in GenAI and LLM educatio
 ---
 
 **Last Updated:** Sep 15, 2025
-
----
-title: "We don't speak JSON"
-subtitle: "Why forcing LLMs to output structured data is a flawed paradigm, and what might come next for developers."
-author: "David Vargas"
-author_linkedin: "https://www.linkedin.com/in/dvargas92495"
-reviewer: "Anita Kirkovska"
-reviewer_linkedin: "https://www.linkedin.com/in/anitakirkovska"
-published_date: "Sep 15, 2025"
-last_updated: "Sep 15, 2025"
----
